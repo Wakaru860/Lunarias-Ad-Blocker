@@ -57,19 +57,6 @@ Open Developer Tools (Ctrl + Shift + I) → Console tab.
 
 Look for logs or blocked request messages from background.js.
 
-Troubleshooting
-
-Problem: "Could not load icon..."
-Cause: The icon file path in manifest.json is incorrect.
-Solution: Make sure file names and paths match exactly.
-
-Problem: Extension won't load
-Cause: Invalid or malformed JSON in manifest.json.
-Solution: Validate your JSON using https://jsonlint.com
-
-Problem: Popup not showing
-Cause: popup.html missing or incorrect path.
-Solution: Verify the default_popup value in manifest.json.
 
 License
 
