@@ -43,20 +43,6 @@ webRequest - Lets the extension monitor network requests.
 webRequestBlocking - Enables blocking unwanted requests.
 host_permissions - Grants access to all websites (<all_urls>).
 
-Development Notes
-
-• Edit background.js to customize ad blocking or logging behavior.
-• Modify popup.html to adjust the interface or add settings.
-• After editing files, go to chrome://extensions/ and click "Reload" to apply changes.
-
-Testing
-
-Visit a website that contains ads.
-
-Open Developer Tools (Ctrl + Shift + I) → Console tab.
-
-Look for logs or blocked request messages from background.js.
-
 
 License
 
