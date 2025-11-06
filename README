@@ -14,6 +14,18 @@ ADblocker/
 ├── icon48.png
 └── icon128.png
 
+How to  Install (Load Packed Extension)
+
+Download the .crx file
+
+Go to chrome://extensions/
+
+Turn ON "Developer mode" in the top-right corner.
+
+Drag and drop the .crx file into the extensions page.
+
+The extension should now appear in your toolbar.
+
 How to Install (Load Unpacked Extension)
 
 Open Google Chrome (or another Chromium-based browser).
