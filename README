@@ -1,0 +1,76 @@
+Lunaria's AD Blocker
+
+A simple Chrome extension that blocks unwanted ads and improves browsing speed.
+
+Project Structure
+
+ADblocker/
+│
+├── manifest.json
+├── background.js
+├── popup.html
+└── icons/
+├── icon16.png
+├── icon48.png
+└── icon128.png
+
+How to Install (Load Unpacked Extension)
+
+Open Google Chrome (or another Chromium-based browser).
+
+Go to chrome://extensions/
+
+Turn ON "Developer mode" in the top-right corner.
+
+Click "Load unpacked".
+
+Select the ADblocker folder (the one containing manifest.json).
+
+The extension should now appear in your toolbar.
+
+File Descriptions
+
+manifest.json - Defines the extension’s name, version, permissions, and icons.
+background.js - Contains background logic such as ad blocking rules.
+popup.html - The small window shown when clicking the extension icon.
+icons/ - Folder containing the extension’s icons in multiple sizes.
+
+Permissions Used
+
+storage - Saves user preferences.
+tabs - Allows the extension to access browser tabs.
+webRequest - Lets the extension monitor network requests.
+webRequestBlocking - Enables blocking unwanted requests.
+host_permissions - Grants access to all websites (<all_urls>).
+
+Development Notes
+
+• Edit background.js to customize ad blocking or logging behavior.
+• Modify popup.html to adjust the interface or add settings.
+• After editing files, go to chrome://extensions/ and click "Reload" to apply changes.
+
+Testing
+
+Visit a website that contains ads.
+
+Open Developer Tools (Ctrl + Shift + I) → Console tab.
+
+Look for logs or blocked request messages from background.js.
+
+Troubleshooting
+
+Problem: "Could not load icon..."
+Cause: The icon file path in manifest.json is incorrect.
+Solution: Make sure file names and paths match exactly.
+
+Problem: Extension won't load
+Cause: Invalid or malformed JSON in manifest.json.
+Solution: Validate your JSON using https://jsonlint.com
+
+Problem: Popup not showing
+Cause: popup.html missing or incorrect path.
+Solution: Verify the default_popup value in manifest.json.
+
+License
+
+This project is open-source and may be used or modified for personal or educational purposes.
