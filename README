@@ -1,5 +1,8 @@
 Lunaria's AD Blocker
 
+KNOWN ISSUES:
+Will remove the youtube video player in the event a AD plays which requires a refresh to fix.
+
 A simple Chrome extension that blocks unwanted ads and improves browsing speed.
 
 Project Structure
