@@ -1,0 +1,9 @@
+[class*="ad-"],
+[id*="ad-"],
+.advertisement,
+.sponsored,
+[class*="sponsor"],
+.ad-container,
+.ad-banner {
+  display: none !important;
+}
